@@ -26,6 +26,18 @@ ul {
   border: #e7e7e7;
 }
 
+input {
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: auto;
+  display: inline-block;
+}
+
+input:focus {
+  background-color: aliceblue;
+}
+
 .nav-link {
   display: block;
   float: left;
@@ -59,6 +71,7 @@ ul {
   width: 30%;
   padding: 20px;
   font-family: "Helvetica", sans-serif;
+  text-align: center;
 }
 
 .form-header {
@@ -68,20 +81,7 @@ ul {
 }
 
 .form-body {
-  text-align: center;
   margin-bottom: 20px;
-}
-
-input {
-  margin-bottom: 15px;
-  font-size: 16px;
-  border-radius: 5px;
-  width: auto;
-  display: inline-block;
-}
-
-input:focus {
-  background-color: azure;
 }
 
 #log-in-btn {
